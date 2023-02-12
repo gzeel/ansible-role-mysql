@@ -1,0 +1,22 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: mysql
+  author: gzeel
+  description: MySQL server for Debian/Ubuntu.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - database
+    - mysql
+    - mariadb
+    - db
+    - sql
